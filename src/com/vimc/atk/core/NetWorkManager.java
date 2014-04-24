@@ -1,4 +1,4 @@
-package com.tencent.atk.core;
+package com.vimc.atk.core;
 
 public class NetWorkManager {
 

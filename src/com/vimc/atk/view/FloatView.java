@@ -1,6 +1,6 @@
-package com.tencent.atk.view;
+package com.vimc.atk.view;
 
-import com.tencent.atk.R;
+import com.vimc.atk.R;
 
 import android.content.Context;
 import android.util.AttributeSet;

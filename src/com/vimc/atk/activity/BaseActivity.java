@@ -1,4 +1,4 @@
-package com.tencent.atk.activity;
+package com.vimc.atk.activity;
 
 import android.app.Activity;
 

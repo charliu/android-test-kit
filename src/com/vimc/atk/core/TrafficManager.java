@@ -1,12 +1,13 @@
-package com.tencent.atk.core;
+package com.vimc.atk.core;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
+
 import android.util.Log;
 
-import com.tencent.atk.Constants;
+import com.vimc.atk.Constants;
 
 public class TrafficManager {
 	private static final int TCP_SND = 1;

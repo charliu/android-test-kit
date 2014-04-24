@@ -1,4 +1,4 @@
-package com.tencent.atk.activity;
+package com.vimc.atk.activity;
 
 import java.util.List;
 
@@ -15,14 +15,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
 
-import com.tencent.atk.Constants;
-import com.tencent.atk.R;
-import com.tencent.atk.adapter.AppListAdapter;
-import com.tencent.atk.core.AppInfoManager;
-import com.tencent.atk.core.TrafficManager;
-import com.tencent.atk.model.AppInfo;
-import com.tencent.atk.service.TrafficService;
-import com.tencent.atk.util.ToastUtil;
+import com.vimc.atk.R;
+import com.vimc.atk.Constants;
+import com.vimc.atk.adapter.AppListAdapter;
+import com.vimc.atk.core.AppInfoManager;
+import com.vimc.atk.core.TrafficManager;
+import com.vimc.atk.model.AppInfo;
+import com.vimc.atk.service.TrafficService;
+import com.vimc.atk.util.ToastUtil;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
 	private static final String LOG_TAG = "MainActivity";

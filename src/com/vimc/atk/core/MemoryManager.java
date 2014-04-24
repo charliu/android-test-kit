@@ -1,4 +1,4 @@
-package com.tencent.atk.core;
+package com.vimc.atk.core;
 
 import android.app.ActivityManager;
 import android.content.Context;

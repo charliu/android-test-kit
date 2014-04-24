@@ -1,4 +1,4 @@
-package com.tencent.atk.adapter;
+package com.vimc.atk.adapter;
 
 import java.util.List;
 

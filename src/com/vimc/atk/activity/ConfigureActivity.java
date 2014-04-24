@@ -1,9 +1,9 @@
-package com.tencent.atk.activity;
+package com.vimc.atk.activity;
 
-import com.tencent.atk.AtkApplication;
-import com.tencent.atk.Constants;
-import com.tencent.atk.R;
-import com.tencent.atk.model.Configure;
+import com.vimc.atk.R;
+import com.vimc.atk.AtkApplication;
+import com.vimc.atk.Constants;
+import com.vimc.atk.model.Configure;
 
 import android.os.Bundle;
 import android.util.Log;

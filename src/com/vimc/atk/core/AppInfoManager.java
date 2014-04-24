@@ -1,4 +1,4 @@
-package com.tencent.atk.core;
+package com.vimc.atk.core;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,8 +10,8 @@ import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.util.Log;
 
-import com.tencent.atk.Constants;
-import com.tencent.atk.model.AppInfo;
+import com.vimc.atk.Constants;
+import com.vimc.atk.model.AppInfo;
 
 public class AppInfoManager {
 	private final static String TAG = "AppManager";

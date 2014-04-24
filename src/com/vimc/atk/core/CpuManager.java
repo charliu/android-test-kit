@@ -14,7 +14,7 @@
  *  limitations under the License.
  *
  */
-package com.tencent.atk.core;
+package com.vimc.atk.core;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.tencent.atk.service;
+package com.vimc.atk.service;
 
 import android.app.Service;
 import android.content.Context;
@@ -8,14 +8,14 @@ import android.os.IBinder;
 import android.util.Log;
 import android.view.*;
 
-import com.tencent.atk.AtkApplication;
-import com.tencent.atk.Constants;
-import com.tencent.atk.R;
-import com.tencent.atk.core.CpuManager;
-import com.tencent.atk.core.TrafficManager;
-import com.tencent.atk.util.ToastUtil;
-import com.tencent.atk.view.FloatView;
-import com.tencent.atk.view.FloatView.ResetTrafficListener;
+import com.vimc.atk.R;
+import com.vimc.atk.AtkApplication;
+import com.vimc.atk.Constants;
+import com.vimc.atk.core.CpuManager;
+import com.vimc.atk.core.TrafficManager;
+import com.vimc.atk.util.ToastUtil;
+import com.vimc.atk.view.FloatView;
+import com.vimc.atk.view.FloatView.ResetTrafficListener;
 
 /**
  * 更新流量服务

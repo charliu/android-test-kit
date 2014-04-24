@@ -1,6 +1,6 @@
-package com.tencent.atk;
+package com.vimc.atk;
 
-import com.tencent.atk.model.Configure;
+import com.vimc.atk.model.Configure;
 
 import android.app.Application;
 import android.content.res.Configuration;

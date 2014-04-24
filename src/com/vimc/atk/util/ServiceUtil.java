@@ -1,4 +1,4 @@
-package com.tencent.atk.util;
+package com.vimc.atk.util;
 
 import java.util.List;
 

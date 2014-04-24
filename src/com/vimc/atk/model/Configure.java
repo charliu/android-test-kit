@@ -1,4 +1,4 @@
-package com.tencent.atk.model;
+package com.vimc.atk.model;
 
 import android.content.Context;
 import android.content.SharedPreferences;

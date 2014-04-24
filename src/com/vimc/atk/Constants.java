@@ -1,4 +1,4 @@
-package com.tencent.atk;
+package com.vimc.atk;
 
 
 public class Constants {

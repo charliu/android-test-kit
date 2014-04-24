@@ -1,4 +1,4 @@
-package com.tencent.atk.adapter;
+package com.vimc.atk.adapter;
 
 import android.app.Activity;
 import android.view.View;
@@ -9,8 +9,8 @@ import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
-import com.tencent.atk.R;
-import com.tencent.atk.model.AppInfo;
+import com.vimc.atk.R;
+import com.vimc.atk.model.AppInfo;
 
 public class AppListAdapter extends BaseListAdapter<AppInfo>{
 	private int selectedId = -1;

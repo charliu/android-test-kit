@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ATK</string>
+    <string name="set_freqency">设置刷新间隔</string>
+    <string name="start">开始</string>
+    <string name="end">结束</string>
+    <string name="start_test">开始测试</string>
+    <string name="stop_test">停止测试</string>
+    <string name="select_test_app">选择你要测试的程序</string>
+    <string name="launch_app_fail">启动应用失败，请重试</string>
+    <string name="read_fail_try_again">读取数据失败，请重试</string>
+    <string name="no_app_entrance">该应用无法启动</string>
+    <string name="no_app_exist">您尚未安装任何非系统应用</string>
+    <string name="read_traffic_fail">获取流量失败，请重新启动应用</string>
+
+</resources>

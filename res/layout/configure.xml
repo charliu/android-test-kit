@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="7dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/set_freqency" />
+
+    <RadioGroup
+        android:id="@+id/frequency_radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/frequency_250"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="250ms" />
+        <RadioButton
+            android:id="@+id/frequency_500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="500ms" />
+        <RadioButton
+            android:id="@+id/frequency_1000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1000ms" />
+    </RadioGroup>
+
+</LinearLayout>

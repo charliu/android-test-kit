@@ -4,7 +4,7 @@ import android.app.Activity;
 
 /**
  * Created with IntelliJ IDEA.
- * User: liurenhui
+ * User: CharLiu
  * Date: 13-6-20
  * Time: PM1:40
  * To change this template use File | Settings | File Templates.

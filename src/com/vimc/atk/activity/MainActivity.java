@@ -19,11 +19,15 @@ import com.vimc.atk.R;
 import com.vimc.atk.Constants;
 import com.vimc.atk.adapter.AppListAdapter;
 import com.vimc.atk.core.AppInfoManager;
-import com.vimc.atk.core.TrafficManager;
 import com.vimc.atk.model.AppInfo;
 import com.vimc.atk.service.TrafficService;
 import com.vimc.atk.util.ToastUtil;
 
+/**
+ * 入口页面
+ * @author CharLiu
+ *
+ */
 public class MainActivity extends BaseActivity implements View.OnClickListener {
 	private static final String LOG_TAG = "MainActivity";
 	private ListView listView;
@@ -43,11 +47,6 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
 		listView.setEmptyView(emptyView);
 		button = (Button) findViewById(R.id.start_or_stop);
 		button.setOnClickListener(this);
-		String str = TrafficManager.getXTraffic();
-		if (str != null)
-			System.out.println("msg:" + str);
-		else
-			System.out.println("msg:none");
 	}
 	
 	@Override

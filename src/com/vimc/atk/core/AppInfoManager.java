@@ -13,6 +13,11 @@ import android.util.Log;
 import com.vimc.atk.Constants;
 import com.vimc.atk.model.AppInfo;
 
+/**
+ * 获取设备上的应用
+ * @author CharLiu
+ *
+ */
 public class AppInfoManager {
 	private final static String TAG = "AppManager";
 

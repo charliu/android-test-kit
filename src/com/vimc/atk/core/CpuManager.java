@@ -20,14 +20,13 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.text.DecimalFormat;
-import java.util.ArrayList;
 
 import android.util.Log;
 
 /**
  * operate CPU information
  * 
- * @author andrewleo
+ * @author CharLiu
  */
 public class CpuManager {
 
@@ -109,15 +108,13 @@ public class CpuManager {
 	}
 
 	/**
-	 * reserve used ratio of process CPU and total CPU, meanwhile collect
-	 * network traffic.
-	 * 
-	 * @return network traffic ,used ratio of process CPU and total CPU in
-	 *         certain interval
+	 * 获取进程CPU占用率
 	 */
+	@SuppressWarnings("unused")
 	public String getCpuRatioInfo() {
 		readCpuStat();
 		String processCpuRatio = "";
+		
 		String totalCpuRatio = "";
 		if (isInitialStatics) {
 			isInitialStatics = false;

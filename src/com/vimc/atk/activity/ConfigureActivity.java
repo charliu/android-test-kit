@@ -10,6 +10,11 @@ import android.util.Log;
 import android.widget.RadioGroup;
 import android.widget.RadioButton;
 
+/**
+ * 设置更新频率页面
+ * @author CharLiu
+ *
+ */
 public class ConfigureActivity extends BaseActivity implements RadioGroup.OnCheckedChangeListener{
 	private RadioGroup frequencyGriup;
 	private int originalTrafficFrequency;
